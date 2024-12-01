@@ -27,6 +27,26 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <meta charSet="utf-8" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+                <meta name="theme-color" content="#000000" />
+                <title>Ahmed Hussein Portfolio</title>
+                <meta
+                    name="description"
+                    content="Ahmed Hussein I am a Frontend Software Developer | React.js | Next.js"
+                />
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="og:title" content="Ahmed Hussein Portfolio" />
+                <meta
+                    name="og:description"
+                    content="Ahmed Hussein I am a Frontend Software Developer | React.js | Next.js"
+                />
+                <meta name="og:image" content="/public/images/profile-image-b-w.png" />
+            </head>
             <body
                 className={`
                     ${geistSans.variable} ${geistMono.variable} antialiased
