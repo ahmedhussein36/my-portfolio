@@ -73,7 +73,7 @@ export const mySkils = [
 export const skillsData = [
     {
         name: "React Js",
-        logo: "/assets/react.webp",
+        logo: "/assets/React.webp",
         level: "Intermediate",
         description: "Advanced image editing and manipulation",
         experience: "7+ years of daily use in professional projects",
@@ -134,7 +134,7 @@ export const skillsData = [
     },
     {
         name: "JavaScript",
-        logo: "/assets/javascript.png",
+        logo: "/assets/Javascript.png",
         level: "Intermediate",
         description: "UI/UX design and prototyping",
         experience: "+3 year of exploratory use in small projects",
@@ -205,7 +205,7 @@ export const MyWorks = [
             framework: [
                 {
                     name: "React",
-                    logo: "/assets/react.webp", // Replace with actual React logo path
+                    logo: "/assets/React.webp", // Replace with actual React logo path
                 },
                 {
                     name: "Next.js",
@@ -274,7 +274,7 @@ export const MyWorks = [
             framework: [
                 {
                     name: "React",
-                    logo: "/assets/react.webp", // Replace with actual React logo path
+                    logo: "/assets/React.webp", // Replace with actual React logo path
                 },
                 {
                     name: "Next.js",
@@ -344,11 +344,11 @@ export const MyWorks = [
             framework: [
                 {
                     name: "React",
-                    logo: "/assets/react.webp", // Replace with actual React logo path
+                    logo: "/assets/React.webp", // Replace with actual React logo path
                 },
                 {
                     name: "Javascript",
-                    logo: "/assets/javascript.png", // Replace with actual Next.js logo path
+                    logo: "/assets/Javascript.png", // Replace with actual Next.js logo path
                 },
                 {
                     name: "Redux",
@@ -414,7 +414,7 @@ export const MyWorks = [
             framework: [
                 {
                     name: "JavaScript",
-                    logo: "/assets/javascript.png",
+                    logo: "/assets/Javascript.png",
                 },
                 {
                     name: "HTML",
@@ -488,7 +488,7 @@ export const MyWorks = [
             framework: [
                 {
                     name: "React",
-                    logo: "/assets/react.webp",
+                    logo: "/assets/React.webp",
                 },
                 {
                     name: "Next.js",
