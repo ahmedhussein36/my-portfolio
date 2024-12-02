@@ -164,7 +164,7 @@ export const MyWorks = [
         name: "Remax Royal",
         description: "Real Estate Agency",
         image: "/images/remax-royal.png",
-        url: "https://remaroyal.net",
+        url: "https://remaxroyal.net",
         showcase: {
             overview:
                 "Remax Royal is a modern real estate platform designed to simplify property buying, selling, and renting. The platform ensures users can easily browse through an extensive catalog of properties with advanced filters, interactive maps, and detailed listings tailored for both commercial and residential markets.",

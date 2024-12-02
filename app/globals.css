@@ -94,14 +94,14 @@ body {
 .project-title{
   position: relative;
   margin-top: 2.5rem;
-  margin-left: 25;
+  margin-left: 25px;
 }
 
 .project-title::before{
   content: '';
   position: absolute;
   top: 0;
-  left: -25;
+  left: -25px;
   width: 12px;
   height: 100%;
   background: #7c0dea;
