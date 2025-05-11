@@ -127,7 +127,7 @@ export const skillsData = [
     {
         name: "Tailwind css",
         logo: "/assets/tailwind.png",
-        level: "Intermediate",
+        level: "Expert",
         description: "Digital design for web and mobile interfaces",
         experience: "3 years of occasional use in UI design projects",
         projects: ["Web design", "Icon design", "UI kits"],
@@ -135,7 +135,7 @@ export const skillsData = [
     {
         name: "JavaScript",
         logo: "/assets/Javascript.png",
-        level: "Intermediate",
+        level: "Expert",
         description: "UI/UX design and prototyping",
         experience: "+3 year of exploratory use in small projects",
         projects: [
@@ -210,6 +210,10 @@ export const MyWorks = [
                 {
                     name: "Next.js",
                     logo: "/assets/next.png", // Replace with actual Next.js logo path
+                },
+                {
+                    name: "Redux",
+                    logo: "/assets/redux.png", // Replace with actual TypeScript logo path
                 },
                 {
                     name: "TypeScript",

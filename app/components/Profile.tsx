@@ -89,9 +89,7 @@ export default function Profile() {
                         Github
                     </Link>
                     <Link
-                        href={
-                            "https://www.linkedin.com/in/ahmed-hussein-48220523a/"
-                        }
+                        href={"https://www.linkedin.com/in/ahmed-hussein36"}
                         aria-label="linkedin"
                         className=" text-background rounded-lg bg-foreground p-2 flex justify-center items-center gap-2"
                     >

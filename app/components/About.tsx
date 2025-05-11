@@ -94,7 +94,7 @@ const AboutSection: React.FC = () => {
                             isVisible ? "opacity-100" : "opacity-0"
                         }`}
                 >
-                    I am a Frontend Developer to design with more than 4 years
+                    I am a Frontend Developer with more than 4 years
                     professional experience in web development , develop, test,
                     and debug responsive applications. I leverage React,
                     JavaScript, HTML, and CSS to transform user and business

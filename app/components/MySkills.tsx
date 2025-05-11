@@ -1,5 +1,5 @@
 "use client";
-import { Star, StarHalf } from "lucide-react";
+// import { Star, StarHalf } from "lucide-react";
 import React, { useEffect, useRef } from "react";
 import { skillsData } from "../data/data";
 import Image from "next/image";
@@ -31,36 +31,42 @@ const MySkills = () => {
         };
     }, []);
 
-    const renderSkillLevel = (level: string) => {
-        switch (level) {
-            case "Expert":
-                return (
-                    <div className="flex">
-                        <Star className="w-4 h-4 text-yellow-400" />
-                        <Star className="w-4 h-4 text-yellow-400" />
-                        <Star className="w-4 h-4 text-yellow-400" />
-                    </div>
-                );
-            case "Intermediate":
-                return (
-                    <div className="flex">
-                        <Star className="w-4 h-4 text-yellow-400" />
-                        <Star className="w-4 h-4 text-yellow-400" />
-                        <StarHalf className="w-4 h-4 text-yellow-400" />
-                    </div>
-                );
-            case "Beginner":
-                return (
-                    <div className="flex">
-                        <Star className="w-4 h-4 text-yellow-400" />
-                        <StarHalf className="w-4 h-4 text-yellow-400" />
-                        <Star className="w-4 h-4 text-gray-300" />
-                    </div>
-                );
-            default:
-                return null;
-        }
-    };
+    // const renderSkillLevel = (level: string) => {
+    //     switch (level) {
+    //         case "Expert":
+    //             return (
+    //                 <div className="flex">
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <StarHalf className="w-4 h-4 text-yellow-400 " />
+    //                     <StarHalf className="w-4 h-4 text-yellow-400 " />
+    //                 </div>
+    //             );
+    //         case "Intermediate":
+    //             return (
+    //                 <div className="flex">
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-gray-300/50" />
+    //                 </div>
+    //             );
+    //         case "Beginner":
+    //             return (
+    //                 <div className="flex">
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-yellow-400" />
+    //                     <Star className="w-4 h-4 text-gray-300" />
+    //                     <StarHalf className="w-4 h-4 text-yellow-400" />
+    //                 </div>
+    //             );
+    //         default:
+    //             return null;
+    //     }
+    // };
     return (
         <section
             id="skills"
@@ -89,12 +95,18 @@ const MySkills = () => {
                     {skillsData.map((skill, index) => (
                         <div key={skill.name}>
                             <div
-                                className="skill-item flex flex-col items-center space-y-2 opacity-0 transform translate-y-4 transition-all duration-500 ease-out cursor-pointer"
+                                className="skill-item flex flex-col items-center 
+                                space-y-2 opacity-0 transform translate-y-4 
+                                transition-all duration-500 ease-out cursor-pointer"
                                 style={{
                                     transitionDelay: `${index * 300}ms`,
                                 }}
                             >
-                                <div className="relative w-20 h-20 rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
+                                <div
+                                    className="relative w-20 h-20 
+                                            rounded-lg shadow-lg flex items-center 
+                                            justify-center overflow-hidden"
+                                >
                                     <Image
                                         src={skill.logo}
                                         alt={`${skill.name} logo`}
@@ -106,7 +118,7 @@ const MySkills = () => {
                                 <span className="font-medium">
                                     {skill.name}
                                 </span>
-                                {renderSkillLevel(skill.level)}
+                                {/* {renderSkillLevel(skill.level)} */}
                             </div>
                         </div>
                     ))}
