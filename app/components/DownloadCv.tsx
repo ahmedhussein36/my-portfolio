@@ -4,10 +4,10 @@ import React from "react";
 const DownloadCVButton = () => {
     const handleDownload = () => {
         // Define the file URL (relative to public folder or absolute URL)
-        const fileUrl = "/AHMED-HUSSEIN-CV.pdf"; // Adjust path if needed
+        const fileUrl = "/Ahmed-Hussein-frontend-developer-resume-2025"; // Adjust path if needed
         const link = document.createElement("a");
         link.href = fileUrl;
-        link.download = "AHMED-HUSSEIN-CV.pdf"; // Optional: specify downloaded file name
+        link.download = "Ahmed-Hussein-frontend-developer-resume-2025"; // Optional: specify downloaded file name
         link.click();
     };
 
